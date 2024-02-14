@@ -75,9 +75,9 @@ header ul li:hover {
 
 /* Hero section  */
 .hero {
-  background: url(./assets/Food1.jpg) no-repeat center;
+  background: url(./assets/Food6.jpg) no-repeat center;
   background-size: cover;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,7 +86,7 @@ header ul li:hover {
 .hero-content {
   background: rgba(0, 0, 0, 0.47);
   color: white;
-  width: 600px;
+  width: 500px;
 
   padding: 40px;
   border-radius: 15px;
