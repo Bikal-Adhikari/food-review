@@ -1,0 +1,74 @@
+:root {
+  --primary: blue;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+.display-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* global message  */
+.global {
+  background: rgba(255, 166, 0, 0.817);
+  padding: 10px 0;
+}
+
+.global > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Header section  */
+
+header {
+  background: var(--primary);
+  color: white;
+  padding: 10px 0;
+}
+
+.logo {
+  background: green;
+  color: brown;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo > div {
+  border: 3px dotted brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 25px;
+}
+
+header ul li {
+  margin-left: 16px;
+}
+
+header ul li:hover {
+  background: red;
+  cursor: pointer;
+  /* font-size: 32px; */
+  transform: scale(1.5);
+}
