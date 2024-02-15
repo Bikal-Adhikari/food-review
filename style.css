@@ -195,3 +195,13 @@ article .btn {
   border-radius: 8px;
   color: grey;
 }
+
+/* <!-- footer   --> */
+
+.footer {
+  background: #000;
+  color: white;
+  padding: 64px;
+  text-align: center;
+  margin-top: 32px;
+}
