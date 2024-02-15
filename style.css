@@ -1,5 +1,6 @@
 :root {
   --primary: blue;
+  --shadow: -5px 5px 10px 5px grey;
 }
 
 body {
@@ -13,6 +14,18 @@ body {
 .display-between {
   display: flex;
   justify-content: space-between;
+}
+
+.btn {
+  background: orangered;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+}
+
+.btn:hover {
+  cursor: pointer;
 }
 
 /* global message  */
