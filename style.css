@@ -241,3 +241,28 @@ article .btn {
     flex-grow: 1;
   }
 }
+
+/* mobile devices */
+@media (max-width: 600px) {
+  article {
+    flex-direction: column;
+  }
+
+  article .art-img {
+    width: 100%;
+  }
+
+  article .btn {
+    width: 100%;
+  }
+  .side-links {
+    flex-direction: column;
+  }
+
+  .subs form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
