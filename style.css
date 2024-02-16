@@ -218,3 +218,26 @@ article .btn {
   text-align: center;
   margin-top: 32px;
 }
+
+/* Media query */
+
+/* ipad 600-992*/
+
+@media (max-width: 992px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .articles,
+  .side-links {
+    width: 100%;
+  }
+  .side-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .side-links > div {
+    flex-grow: 1;
+  }
+}
